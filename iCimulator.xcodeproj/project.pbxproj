@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46CCC38327EF272200BE1C68 /* _FakeCaptureMetadataOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CCC38227EF272200BE1C68 /* _FakeCaptureMetadataOutput.swift */; };
 		8D2762A6235B47DD00E1E02E /* FakeImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2762A5235B47DD00E1E02E /* FakeImagePickerController.swift */; };
 		8D2762A8235B480000E1E02E /* FakeImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D2762A7235B480000E1E02E /* FakeImagePickerController.xib */; };
 		8D4C6A1C23553DC800CF4E4E /* iCimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4C6A1223553DC800CF4E4E /* iCimulator.framework */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46CCC38227EF272200BE1C68 /* _FakeCaptureMetadataOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _FakeCaptureMetadataOutput.swift; sourceTree = "<group>"; };
 		8D2762A5235B47DD00E1E02E /* FakeImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeImagePickerController.swift; sourceTree = "<group>"; };
 		8D2762A7235B480000E1E02E /* FakeImagePickerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FakeImagePickerController.xib; sourceTree = "<group>"; };
 		8D4C6A1223553DC800CF4E4E /* iCimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iCimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +195,7 @@
 				8DF8B121235DA29E0080573E /* _FakeCaptureConnection.swift */,
 				8DF8B128235DA7AB0080573E /* _FakeCaptureSettings.swift */,
 				8DF8B12C235DDD740080573E /* _FakeCapturePhotoOutput.swift */,
+				46CCC38227EF272200BE1C68 /* _FakeCaptureMetadataOutput.swift */,
 			);
 			path = Disguise;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				8DF8B129235DA7AB0080573E /* _FakeCaptureSettings.swift in Sources */,
 				8D2762A6235B47DD00E1E02E /* FakeImagePickerController.swift in Sources */,
 				8DCAFBBF2358054700A7724C /* VideoConverter.swift in Sources */,
+				46CCC38327EF272200BE1C68 /* _FakeCaptureMetadataOutput.swift in Sources */,
 				8DF8B134235F0A130080573E /* InterProcessCommunicator.swift in Sources */,
 				8D4C6A2D23553DDB00CF4E4E /* iCimulatorFoundation.swift in Sources */,
 				8DF8B12B235DA9880080573E /* FakeCapturePhotoSettings.swift in Sources */,

@@ -148,3 +148,7 @@ open class FakeCaptureMovieFileOutput: FakeCaptureFileOutput {
     open func recordsVideoOrientationAndMirroringChangesAsMetadataTrack(for connection: FakeCaptureConnection) -> Bool  { return true }
     open func setRecordsVideoOrientationAndMirroringChangesAsMetadataTrack(_ doRecordChanges: Bool, for connection: FakeCaptureConnection) {}
 }
+
+open class FakeCaptureMetadataOutput: _FakeCaptureMetadataOutput {
+    
+}
