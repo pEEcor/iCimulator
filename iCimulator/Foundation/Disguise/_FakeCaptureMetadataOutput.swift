@@ -15,7 +15,7 @@ open class _FakeCaptureMetadataOutput: FakeCaptureOutput {
      Initializer
      */
     public override init() {
-        
+        self.metadataObjectTypes = []
     }
     
     
@@ -88,9 +88,7 @@ open class _FakeCaptureMetadataOutput: FakeCaptureOutput {
      @discussion
         AVCaptureMetadataOutput may detect and emit multiple metadata object types. For apps linked before iOS 7.0, the receiver defaults to capturing face metadata objects if supported (see -availableMetadataObjectTypes). For apps linked on or after iOS 7.0, the receiver captures no metadata objects by default. -setMetadataObjectTypes: throws an NSInvalidArgumentException if any elements in the array are not present in the -availableMetadataObjectTypes array.
      */
-    open var metadataObjectTypes: [AVMetadataObject.ObjectType]! {
-        []
-    }
+    open var metadataObjectTypes: [AVMetadataObject.ObjectType]
 
     
     /**
@@ -135,5 +133,5 @@ public protocol FakeCaptureMetadataOutputObjectsDelegate : NSObjectProtocol {
      
         Clients that need to reference metadata objects outside of the scope of this method must retain them and then release them when they are finished with them.
      */
-    func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection)
+    func metadataOutput(_ output: FakeCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: FakeCaptureConnection)
 }
