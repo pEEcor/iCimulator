@@ -1,3 +1,7 @@
+## Why this fork?
+
+- Adds the ability to mock AVCaptureMetadataOutput
+
 <img src="resources/Banner.png">
 
 [![License][license-image]][license-url]
