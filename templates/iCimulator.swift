@@ -42,6 +42,8 @@
     public typealias AVCaptureMovieFileOutput = FakeCaptureMovieFileOutput
     public typealias AVCaptureFileOutput = FakeCaptureFileOutput
     public typealias AVCaptureFileOutputRecordingDelegate = FakeCaptureFileOutputRecordingDelegate
+    public typealias AVCaptureMetadataOutput = FakeCaptureMetadataOutput
+    public typealias AVCaptureMetadataOutputObjectsDelegate = FakeCaptureMetadataOutputObjectsDelegate
     public typealias AVCaptureConnection = FakeCaptureConnection
     public typealias AVCapturePhotoSettings = FakeCapturePhotoSettings
     public typealias AVCaptureResolvedPhotoSettings = FakeCaptureResolvedPhotoSettings
