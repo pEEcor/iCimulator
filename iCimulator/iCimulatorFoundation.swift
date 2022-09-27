@@ -11,9 +11,11 @@ import AVFoundation
 
 public typealias FakePreviewLayer = iCimulatorFoundation
 public typealias FakeCaptureVideoPreviewLayer = iCimulatorFoundation
+
+@available(iOS 12, *)
 open class iCimulatorFoundation: CALayer { //** MAIN CLASS **//
     
-    //-MARK: Original
+    // MARK: Original
     private var previewType: PreviewType?
     private var plistArgument: String?
 
@@ -25,9 +27,7 @@ open class iCimulatorFoundation: CALayer { //** MAIN CLASS **//
     private var stopWatch: StopWatch = StopWatch()
     private var recordingStartTime: CMTime?
     
-    @available(iOS 12 , *)
     private lazy var ipc = InterProcessCommunicator()
-    
     
     public override func layoutSublayers() {
         super.layoutSublayers()
