@@ -1,6 +1,7 @@
 ## Why this fork?
 
 - Adds the ability to mock AVCaptureMetadataOutput
+- Adds SPM support
 
 <img src="resources/Banner.png">
 
