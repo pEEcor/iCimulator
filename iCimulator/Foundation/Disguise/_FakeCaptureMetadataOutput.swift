@@ -102,9 +102,7 @@ open class _FakeCaptureMetadataOutput: FakeCaptureOutput {
         As of iOS 13, this property can be set without requiring a lengthy rebuild of the session in which video preview is disrupted.
      */
     @available(iOS 7.0, *)
-    open var rectOfInterest: CGRect {
-        CGRect(x: 0, y: 0, width: 0, height: 0)
-    }
+    open var rectOfInterest: CGRect = CGRect(x: 0, y: 0, width: 0, height: 0)
 }
 
 /**
