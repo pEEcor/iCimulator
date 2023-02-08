@@ -35,4 +35,7 @@ open class FakeCaptureSession: _FakeCaptureSession {
         output.session = self
     }
     
+    open override func canAddOutput(_ output: FakeCaptureOutput) -> Bool {
+        true
+    }
 }
