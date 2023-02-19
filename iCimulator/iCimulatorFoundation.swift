@@ -48,8 +48,6 @@ open class iCimulatorFoundation: CALayer { //** MAIN CLASS **//
         if #available(iOS 12, *) {
             ipc.detachConnection()
         }
-        
-        print("deinit")
     }
     
     public override init()
